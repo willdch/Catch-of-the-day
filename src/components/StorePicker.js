@@ -3,9 +3,7 @@ import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
   myInput = React.createRef();
-
-
-  goToStore= event => {
+  goToStore = event => {
     // 1. stop the form from submitting by defualt
     event.preventDefault();
   // 2. get text form that input
